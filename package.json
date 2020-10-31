@@ -1,0 +1,22 @@
+{
+  "name": "oasis-workshop-7-databases",
+  "version": "1.0.0",
+  "description": "The interactive portion of the 7th Oasis workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/northeastern-oasis/Workshop-7-Databases.git"
+  },
+  "author": "Oasis NEU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/northeastern-oasis/Workshop-7-Databases/issues"
+  },
+  "homepage": "https://github.com/northeastern-oasis/Workshop-7-Databases#readme",
+  "dependencies": {
+    "mongodb": "^3.6.2"
+  }
+}
