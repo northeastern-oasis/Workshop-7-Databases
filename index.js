@@ -47,13 +47,15 @@ async function main() {
 	try {
 		await client.connect();
 	
-		// Add code here you want to do with the database
+		// Change this string to the name of the restaurant you want to query!
 		let name = "";
 		await findRestaurantByName(client, name);
 		
+		// Enter a cuisine name you want to query!
 		let cuisine = "";
 		await findAllRestaurantsWithCuisine(client, cuisine);
 		
+		// Create a restaurant object like the ones from the database!
 		let newRestaurant = {
 
 		}
