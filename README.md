@@ -2,9 +2,9 @@
 
 **Workshop External Resources**
 
-  *  Youtube Recording: Coming soon
+  *  Youtube Recording: [https://youtu.be/0qhZNfuTiNg](https://youtu.be/0qhZNfuTiNg)
   *  Slides: [https://docs.google.com/presentation/d/1XRQv-lYrat08F249j63__cTHmwEucDOytbo4RUbyrzY/edit?usp=sharing](https://docs.google.com/presentation/d/1XRQv-lYrat08F249j63__cTHmwEucDOytbo4RUbyrzY/edit?usp=sharing)
-  * Kahoot: Coming soon
+  * Kahoot: [https://create.kahoot.it/share/oasis-workshop-7-intro-to-databases/6b8c34e9-85e2-4493-b441-05b0d7fa0274](https://create.kahoot.it/share/oasis-workshop-7-intro-to-databases/6b8c34e9-85e2-4493-b441-05b0d7fa0274)
   * Oasis Starting Guide: [https://github.com/northeastern-oasis/Ultimate-Oasis-Starting-Guide/tree/master/databases](https://github.com/northeastern-oasis/Ultimate-Oasis-Starting-Guide/tree/master/databases)
 
 Congratulations on starting to work with databases! Almost every major application has use for a database at some point, be it to store application user data, posts made in the app, restauraunt ratings, instant messages, and endless more use cases. They truly are essential!
@@ -26,7 +26,8 @@ We will be creating a cluster/some collections in MongoDB Cloud Atlas. The steps
 
 ### To set up database
 
-1. Launch database server with local MongoDB community server
+1. Create a MongoDB account [here](https://www.mongodb.com/cloud/atlas) (choose "Start Free" and use your school email to sign up)
+2. Create a new project--use default settings
 	1. Create a cluster
 		1. Use default settings for creation
 		2. Wait 1-3 mins for process to finish
@@ -45,15 +46,15 @@ We will be creating a cluster/some collections in MongoDB Cloud Atlas. The steps
 				1. Because you will be developing on your local machine
 	4. Now database is locked down both from a user perspective and an IP perspective
 
-2. Add a new collection
+3. Add a new collection
 	1. Back in “Clusters” tab, click “Collections” button in your cluster
 	2. Click “Load sample dataset”
-3. Create the connection for our database
+4. Create the connection for our database
 	1. Back in the “Clusters” tab, click the “Connect” button in your newly-created cluster
 	2. Driver = Node.js
 	3. Version = 3.6 or later
 	4. Copy the connection string to the clipboard
-4. Now we're ready to code!
+5. Now we're ready to code!
 
 
 ### Connecting to the database
@@ -71,5 +72,6 @@ We will be concerned with the basic operations outlined in this page:
 
 Well done finishing the workshop! You now understand the basics of databases and how we can easily create/connect to them in our own applications. Check out the following resources to keep learning:
 
+  *   Continue trying out Mongo CRUD operations: [https://docs.mongodb.com/manual/crud/](https://docs.mongodb.com/manual/crud/)
   *   Read through the MongoDB Docs--they have many resources to keep learning [https://docs.mongodb.com/manual/](https://docs.mongodb.com/manual/)
   *   Check out the Oasis Starting Guide section on frontend development [here](https://github.com/northeastern-oasis/Ultimate-Oasis-Starting-Guide/tree/master/databases)
